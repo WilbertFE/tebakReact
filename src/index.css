@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+/* style aplikasi */
+.board {
+  width:400px;
+  margin:50px auto;
+  text-align: center;
+  display:flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.board div {
+  min-height: 100px;
+  padding: 10px;
+}
+.computer {
+  width: 100%;
+  background-color: salmon;
+  display: flex;
+}
+.computer span {
+  margin:auto;
+}
+.batu, .gunting, .kertas {
+  line-height: 100px;
+  width:33.3%;
+}
+
+.batu {
+  background-color: lightskyblue;
+}
+.gunting {
+  background-color: limegreen;
+}
+.kertas {
+  background-color: royalblue;
+}
